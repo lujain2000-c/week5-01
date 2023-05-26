@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A42C9452A20EAB500475560 /* CupcakeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C9442A20EAB500475560 /* CupcakeAppApp.swift */; };
+		6A42C9472A20EAB500475560 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C9462A20EAB500475560 /* ContentView.swift */; };
+		6A42C9492A20EAB600475560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42C9482A20EAB600475560 /* Assets.xcassets */; };
+		6A42C94D2A20EAB600475560 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42C94C2A20EAB600475560 /* Preview Assets.xcassets */; };
+		6A42C9582A20F16A00475560 /* CupcakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C9572A20F16A00475560 /* CupcakeModel.swift */; };
+		6A42C95A2A20F21A00475560 /* CupcakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C9592A20F21A00475560 /* CupcakeViewModel.swift */; };
+		6A42C95C2A21230800475560 /* CupcakePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C95B2A21230800475560 /* CupcakePageView.swift */; };
+		6A42C95E2A212D3100475560 /* NutritionFactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C95D2A212D3100475560 /* NutritionFactsModel.swift */; };
+		6A42C9602A212E1200475560 /* CupcakePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C95F2A212E1200475560 /* CupcakePageViewModel.swift */; };
+		6A42C9622A21385B00475560 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C9612A21385B00475560 /* CartModel.swift */; };
+		6A42C9642A21393500475560 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C9632A21393500475560 /* CartViewModel.swift */; };
+		6A42C9662A21397400475560 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C9652A21397400475560 /* CartView.swift */; };
+		6A42C9682A214E1A00475560 /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C9672A214E1A00475560 /* PaymentModel.swift */; };
+		6A42C96A2A214FB800475560 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C9692A214FB800475560 /* PaymentViewModel.swift */; };
+		6A42C96C2A214FD600475560 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C96B2A214FD600475560 /* PaymentView.swift */; };
+		6A42C96E2A215A0100475560 /* PaymentStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42C96D2A215A0100475560 /* PaymentStatusView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A42C9412A20EAB500475560 /* CupcakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A42C9442A20EAB500475560 /* CupcakeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeAppApp.swift; sourceTree = "<group>"; };
+		6A42C9462A20EAB500475560 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A42C9482A20EAB600475560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A42C94A2A20EAB600475560 /* CupcakeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CupcakeApp.entitlements; sourceTree = "<group>"; };
+		6A42C94C2A20EAB600475560 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A42C9572A20F16A00475560 /* CupcakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeModel.swift; sourceTree = "<group>"; };
+		6A42C9592A20F21A00475560 /* CupcakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeViewModel.swift; sourceTree = "<group>"; };
+		6A42C95B2A21230800475560 /* CupcakePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakePageView.swift; sourceTree = "<group>"; };
+		6A42C95D2A212D3100475560 /* NutritionFactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionFactsModel.swift; sourceTree = "<group>"; };
+		6A42C95F2A212E1200475560 /* CupcakePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakePageViewModel.swift; sourceTree = "<group>"; };
+		6A42C9612A21385B00475560 /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		6A42C9632A21393500475560 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		6A42C9652A21397400475560 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		6A42C9672A214E1A00475560 /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		6A42C9692A214FB800475560 /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		6A42C96B2A214FD600475560 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		6A42C96D2A215A0100475560 /* PaymentStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStatusView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A42C93E2A20EAB500475560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A42C9382A20EAB500475560 = {
+			isa = PBXGroup;
+			children = (
+				6A42C9432A20EAB500475560 /* CupcakeApp */,
+				6A42C9422A20EAB500475560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A42C9422A20EAB500475560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A42C9412A20EAB500475560 /* CupcakeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A42C9432A20EAB500475560 /* CupcakeApp */ = {
+			isa = PBXGroup;
+			children = (
+				6A42C9562A20EAF100475560 /* View */,
+				6A42C9542A20EAD100475560 /* ViewModel */,
+				6A42C9532A20EABF00475560 /* Models */,
+				6A42C9442A20EAB500475560 /* CupcakeAppApp.swift */,
+				6A42C9482A20EAB600475560 /* Assets.xcassets */,
+				6A42C94A2A20EAB600475560 /* CupcakeApp.entitlements */,
+				6A42C94B2A20EAB600475560 /* Preview Content */,
+			);
+			path = CupcakeApp;
+			sourceTree = "<group>";
+		};
+		6A42C94B2A20EAB600475560 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A42C94C2A20EAB600475560 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A42C9532A20EABF00475560 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A42C9572A20F16A00475560 /* CupcakeModel.swift */,
+				6A42C95D2A212D3100475560 /* NutritionFactsModel.swift */,
+				6A42C9612A21385B00475560 /* CartModel.swift */,
+				6A42C9672A214E1A00475560 /* PaymentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A42C9542A20EAD100475560 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6A42C9592A20F21A00475560 /* CupcakeViewModel.swift */,
+				6A42C95F2A212E1200475560 /* CupcakePageViewModel.swift */,
+				6A42C9632A21393500475560 /* CartViewModel.swift */,
+				6A42C9692A214FB800475560 /* PaymentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6A42C9562A20EAF100475560 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A42C9462A20EAB500475560 /* ContentView.swift */,
+				6A42C95B2A21230800475560 /* CupcakePageView.swift */,
+				6A42C9652A21397400475560 /* CartView.swift */,
+				6A42C96B2A214FD600475560 /* PaymentView.swift */,
+				6A42C96D2A215A0100475560 /* PaymentStatusView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A42C9402A20EAB500475560 /* CupcakeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A42C9502A20EAB600475560 /* Build configuration list for PBXNativeTarget "CupcakeApp" */;
+			buildPhases = (
+				6A42C93D2A20EAB500475560 /* Sources */,
+				6A42C93E2A20EAB500475560 /* Frameworks */,
+				6A42C93F2A20EAB500475560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CupcakeApp;
+			productName = CupcakeApp;
+			productReference = 6A42C9412A20EAB500475560 /* CupcakeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A42C9392A20EAB500475560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6A42C9402A20EAB500475560 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 6A42C93C2A20EAB500475560 /* Build configuration list for PBXProject "CupcakeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A42C9382A20EAB500475560;
+			productRefGroup = 6A42C9422A20EAB500475560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A42C9402A20EAB500475560 /* CupcakeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A42C93F2A20EAB500475560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A42C94D2A20EAB600475560 /* Preview Assets.xcassets in Resources */,
+				6A42C9492A20EAB600475560 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A42C93D2A20EAB500475560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A42C9662A21397400475560 /* CartView.swift in Sources */,
+				6A42C9682A214E1A00475560 /* PaymentModel.swift in Sources */,
+				6A42C9602A212E1200475560 /* CupcakePageViewModel.swift in Sources */,
+				6A42C96E2A215A0100475560 /* PaymentStatusView.swift in Sources */,
+				6A42C9472A20EAB500475560 /* ContentView.swift in Sources */,
+				6A42C95A2A20F21A00475560 /* CupcakeViewModel.swift in Sources */,
+				6A42C95E2A212D3100475560 /* NutritionFactsModel.swift in Sources */,
+				6A42C9452A20EAB500475560 /* CupcakeAppApp.swift in Sources */,
+				6A42C96C2A214FD600475560 /* PaymentView.swift in Sources */,
+				6A42C96A2A214FB800475560 /* PaymentViewModel.swift in Sources */,
+				6A42C9622A21385B00475560 /* CartModel.swift in Sources */,
+				6A42C9642A21393500475560 /* CartViewModel.swift in Sources */,
+				6A42C95C2A21230800475560 /* CupcakePageView.swift in Sources */,
+				6A42C9582A20F16A00475560 /* CupcakeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A42C94E2A20EAB600475560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A42C94F2A20EAB600475560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6A42C9512A20EAB600475560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CupcakeApp/CupcakeApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CupcakeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A42C9522A20EAB600475560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CupcakeApp/CupcakeApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CupcakeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A42C93C2A20EAB500475560 /* Build configuration list for PBXProject "CupcakeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A42C94E2A20EAB600475560 /* Debug */,
+				6A42C94F2A20EAB600475560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A42C9502A20EAB600475560 /* Build configuration list for PBXNativeTarget "CupcakeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A42C9512A20EAB600475560 /* Debug */,
+				6A42C9522A20EAB600475560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A42C9392A20EAB500475560 /* Project object */;
+}
