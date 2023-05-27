@@ -10,7 +10,8 @@ import SwiftUI
 struct NutritionFactsModel: Identifiable {
   var id = UUID()
     var name: String
-    var value: Int
+    var value: Double
 }
 
 
+//"%.1f"

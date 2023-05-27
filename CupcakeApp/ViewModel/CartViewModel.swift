@@ -11,7 +11,7 @@ import SwiftUI
 extension CartView{
     @MainActor class CartViewModel: ObservableObject{
         @Published var allItem: [CartModel] = [
-            CartModel(name: "Chocolate Caramel \n Cupcake", price: 12, image: "CupcakeChocolateSmall")
+            CartModel(name: "Chocolate Caramel \n Cupcake", price: 12.90, image: "CupcakeChocolateSmall")
         ]
     }
 }

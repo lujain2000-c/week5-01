@@ -12,37 +12,43 @@ struct CupcakePageView: View {
     @StateObject var vm = CupcakePageViewModel()
     var body: some View {
         ZStack{
+          
             Color("Brown")
             VStack{
                 Image(systemName: "chevron.backward")
                     .resizable()
                     .frame(width: 10, height: 20)
                     .foregroundColor(.white)
-                    .padding(.trailing,300)
+                    .padding(.trailing,360)
+                    .padding(.bottom,16)
+                
                 Image("CupcakeChocolateSmall")
+                   // .padding(.bottom)
                 ZStack{
                     Rectangle()
                         .cornerRadius(40)
                         .foregroundColor(Color("Beige"))
                     VStack{
                         Text("Chocolate Caramel Cupcake")
-                            .font(.title2)
+                            .font(.custom("SnellRoundhand-Black", size: 30))
                             .bold()
-                            .padding(.bottom)
+                            .padding(.top,24)
+                            .padding(.bottom,7)
                             
                           Text("Ingredients:")
-                            .font(.headline)
-                            .padding(.bottom,7)
-                            .padding(.trailing, 250)
-                        Text("Butter, sugar, milk, cocoa, eggs, baking").padding(.trailing,50)
-                        Text("powder, flour, dark chocolate, caramel,").padding(.trailing,50)
-                        Text("cream, buttermilk, coffee.").padding(.trailing,150)
+                            .font(.title3)
+                            .bold()
+                            .padding(.bottom,5)
+                            .padding(.trailing, 230)
+                        Text("Butter, sugar, milk, cocoa, eggs, baking").padding(.trailing,40)
+                        Text("powder, flour, dark chocolate, caramel,").padding(.trailing,40)
+                        Text("cream, buttermilk, coffee.").padding(.trailing,140)
                         
                         HStack{
                             ForEach(vm.allFacts){ fact in
                                 ZStack{
                                     Color("Brown")
-                                        .frame(width: 70,height: 125)
+                                        .frame(width: 75,height: 120)
                                         .cornerRadius(40)
                                     VStack{
                                         ZStack{
@@ -50,51 +56,61 @@ struct CupcakePageView: View {
                                                 .frame(width: 50,height: 50)
                                                 .cornerRadius(25)
                                                 .foregroundColor(.white)
-                                            Text("\(fact.value)")
+                                            Text("\(fact.value, specifier: "%.1f")")
                                                 .bold()
                                             
                                         }.padding(.bottom)
                                         
                                         Text(fact.name)
-                                            .foregroundColor(Color("Beige"))
+                                            .foregroundColor(.white)
                                             .bold()
+                                            .font(.footnote)
                                     }
                                 }.padding(.trailing)
+                                    //.shadow(radius: 8)
                                     
                                 
                             }
-                        }
-                        HStack{
-                            Text("$12")
-                                .font(.largeTitle)
-                                .bold()
-                            
-                            .foregroundColor(Color("Brown"))
-                            Text("/6pes")
-                                .font(.footnote)
-                                .bold()
-                            .foregroundColor(Color("Brown"))
-                        }.padding(.trailing,250)
-                        
-                        ZStack{
-                            Rectangle()
-                                .foregroundColor(Color("Brown"))
-                                .frame(width: 320,height: 50)
-                                .cornerRadius(10)
-                            Button("Add to cart"){
+                        }.padding(.top)
+                            .padding(.leading)
+                           
+                        VStack(spacing: 0){
+                            HStack{
+                                Text("$12.90")
+                                    .font(.custom("SnellRoundhand-Bold", size: 40))
+                                    .bold()
                                 
-                            }.font(.title2)
-                                .bold()
-                                .foregroundColor(.white)
+                                .foregroundColor(Color("Brown"))
+                                Text("/6pes")
+                                    .font(.custom("SnellRoundhand-Bold", size: 16))
+                                    .bold()
+                                .foregroundColor(Color("Brown"))
+                            }.padding(.trailing,200)
                             
+                            ZStack{
+                                Rectangle()
+                                    .foregroundColor(Color("Brown"))
+                                    .frame(width: 320,height: 50)
+                                    .cornerRadius(10)
+                                  
+                                Button("Add to cart"){
+                                    
+                                }.font(.title2)
+                                    .bold()
+                                    .foregroundColor(.white)
+                                   
+                                
+                            } .padding(.bottom,150)
                         }
                     }
                     
                 }
-            }.padding(.top,50)
+            }.padding(.top,150)
+               // .padding(.horizontal,300)
                
                 
         }.ignoresSafeArea()
+        
         
     }
 }

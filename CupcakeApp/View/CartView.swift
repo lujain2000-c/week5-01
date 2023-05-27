@@ -13,13 +13,13 @@ struct CartView: View {
         ZStack{
             Color("Beige")
             VStack{
-                Image(systemName: "chevron.backward")
-                    .resizable()
-                    .frame(width: 10, height: 20)
-                    .foregroundColor(Color("Brown"))
-                    .padding(.trailing,320)
-                    .padding(.bottom)
-                Text("Your cart")
+//                Image(systemName: "chevron.backward")
+//                    .resizable()
+//                    .frame(width: 10, height: 20)
+//                    .foregroundColor(Color("Brown"))
+//                    .padding(.trailing,320)
+                    //.padding(.bottom)
+                Text("My cart")
                     .font(.largeTitle)
                      .bold()
                      .foregroundColor(Color("Brown"))
@@ -36,12 +36,13 @@ struct CartView: View {
                             Image(item.image)
                                 .resizable()
                               .frame(width: 100,height: 100)
-                              .padding(.leading,20)
+                              .padding(.leading,40)
                             VStack{
                                 Text(item.name)
                                     .padding(.bottom)
-                                Text("$\(item.price)")
-                                    .padding(.trailing,120)
+                                Text("$\(item.price, specifier: "%.2f")")
+                                    .font(.custom("SnellRoundhand-Bold", size: 24))
+                                    .padding(.trailing,80)
                             }.foregroundColor(.white)
                                 .bold()
                                 
@@ -50,35 +51,40 @@ struct CartView: View {
                                     .frame(width: 35,height: 70)
                                     .foregroundColor(Color("Beige"))
                                     .padding(.trailing)
-                                   // .cornerRadius(20)
+                                    .cornerRadius(8)
                                 
-                                VStack{
-                                    ZStack{
-                                        Rectangle()
-                                            .frame(width: 35,height: 32)
+                               VStack{
+                                  ZStack{
+                                       Rectangle()
+                                           .frame(width: 35,height: 32)
                                             .foregroundColor(.white)
-                                            .padding(.trailing)
-                                            .cornerRadius(20)
-                                         Button(" + "){
-                                             
-                                         }.padding(.trailing)
-                                    }
-                                    Text("1")
-                                    ZStack{
-                                        Rectangle()
-                                            .frame(width: 35,height: 32)
-                                            .foregroundColor(.white)
-                                            .padding(.trailing)
-                                            .cornerRadius(20)
+                                           .padding(.trailing)
+                                           .cornerRadius(8)
+                                        Button(" + "){
+
+                                      }.padding(.trailing)                                          .foregroundColor(Color("Brown"))
+                                      
+                                  }.padding(.top)
+                                      
+                                  Text("01")
+                                       .font(.caption)
+                                       .padding(.trailing)
+                                   ZStack{
+                                       Rectangle()
+                                           .frame(width: 35,height: 32)
+                                          .foregroundColor(.white)
+                                           .padding(.trailing)
+                                            .cornerRadius(8)
                                          Button(" - "){
-                                             
-                                         }.padding(.trailing)
-                                    }
-                                }
-                            }.padding(.trailing,10)
+                                        }.padding(.trailing)
+                                        .foregroundColor(Color("Brown"))
+                                     
+                                   }
+                              }
+                            }.padding(.trailing,30)
                         }
                             
-                    }
+                   }
                     
                 }
                 Spacer()
@@ -92,7 +98,7 @@ struct CartView: View {
                         HStack{
                             Text("Subtotale")
                             Spacer()
-                            Text("$12")
+                            Text("$12.90")
                                 .bold()
                         }.foregroundColor(Color("Brown"))
                             .padding(.bottom)
@@ -107,7 +113,7 @@ struct CartView: View {
                         HStack{
                             Text("Total")
                             Spacer()
-                            Text("$12")
+                            Text("$12.90")
                               
                         }.foregroundColor(Color("Brown"))
                             .bold()
@@ -117,12 +123,12 @@ struct CartView: View {
                                 .foregroundColor(Color("Brown"))
                                 .frame(width: 320,height: 50)
                                 .cornerRadius(10)
-                            Button("Chekout"){
-                                
-                            }.font(.title2)
-                                .bold()
-                                .foregroundColor(.white)
-                            
+                            NavigationLink("Chekout", destination: PaymentView())
+                                .font(.title2)
+                                    .bold()
+                                    .foregroundColor(.white)
+                                    .navigationTitle(" ")
+                        
                         }
                     }.padding(.horizontal,40)
                 }.ignoresSafeArea()

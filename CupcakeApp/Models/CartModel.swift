@@ -10,7 +10,7 @@ import SwiftUI
 struct CartModel: Identifiable {
     var id = UUID()
     var name: String
-    var price: Int
+    var price: Double
     var image: String
     }
 

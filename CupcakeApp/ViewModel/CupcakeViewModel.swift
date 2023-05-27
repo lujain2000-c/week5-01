@@ -18,8 +18,8 @@ extension ContentView{
         ]
         
         @Published var allCupcake:[CupcakeModel] = [
-            CupcakeModel(name: "Chocolate Caramel \n Cupcake ", imageName: "CupcakeChocolateSmall", price: 12, category: "Chocolate"),
-            CupcakeModel(name: "Salt Caramel \n Cupcake ", imageName: "CupcakeCaramel", price: 15, category: "Caramel"), CupcakeModel(name: "Blueberry \n Cupcake", imageName: "CupcakeBlueberry", price: 10, category: "berry")]
+            CupcakeModel(name: "Chocolate Caramel \n Cupcake ", imageName: "CupcakeChocolateSmall", price: 12.90, category: "Chocolate"),
+            CupcakeModel(name: "Salt Caramel \n Cupcake ", imageName: "CupcakeCaramel", price: 10.90, category: "Caramel"), CupcakeModel(name: "Blueberry \n Cupcake", imageName: "CupcakeBlueberry", price: 9.90, category: "berry")]
     
 
     }
